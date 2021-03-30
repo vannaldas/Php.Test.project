@@ -12,5 +12,7 @@ public class PhpAppTest
       System.out.println("test project");
       System.out.println("jenkins project");
       System.out.println("git project");
+      
+      System.out.println("start project");
     }
 }
