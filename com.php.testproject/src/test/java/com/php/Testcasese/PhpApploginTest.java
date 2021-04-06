@@ -77,7 +77,7 @@ public class PhpApploginTest
     	  phpserviices.clickloginbutton();phpserviices.entercountry();phpserviices.clickhomebutton();
     
     	  phpserviices.clickflightslink();phpserviices.clickradio2button();
-    	  phpserviices.clickfromlink2();
+    	  //phpserviices.clickfromlink2();
     	   //phpserviices.clickTolink();                 
     	  
     	  
