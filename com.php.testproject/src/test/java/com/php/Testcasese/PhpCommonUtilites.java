@@ -86,5 +86,6 @@ public static WebElement signuplink;
 			driver.findElement(By.cssSelector(locator)).click();
 		}
 	}
+	
 
 }

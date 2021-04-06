@@ -30,6 +30,26 @@ public class Phpconfigreaderclass {
 			return prop.getProperty("login");
 			
 		}
+		public String gethomelink() {
+			return prop.getProperty("clickhome");
+			
+		}
+		public String getflightslink() {
+			return prop.getProperty("flightslink");
+			
+		}
+		public String getradio2link() {
+			return prop.getProperty("radio2link");
+			
+		}
+		public String getradio1link() {
+			return prop.getProperty("radio1link");
+			
+		}
+		public String getfromlink() {
+			return prop.getProperty("From");
+			
+		}
 		public String getfirstname() {
 			return prop.getProperty("fname");
 			
@@ -47,8 +67,16 @@ public class Phpconfigreaderclass {
 			return prop.getProperty("Email");
 			
 		}
+		public String getemail1() {
+			return prop.getProperty("email1");
+			
+		}
 		public String getpasswordname() {
 			return prop.getProperty("password");
+			
+		}
+		public String getloginpassword() {
+			return prop.getProperty("loginpassword");
 			
 		}
 		public String getconpasswordname() {
@@ -57,6 +85,10 @@ public class Phpconfigreaderclass {
 		}
 		public String getcpasswordelement() {
 			return prop.getProperty("cpass");
+			
+		}
+		public String getfromelement() {
+			return prop.getProperty("fromelement");
 			
 		}
 		public String getbrowserurl() {
@@ -88,16 +120,30 @@ public class Phpconfigreaderclass {
 		public String getemaielement() {
 			return prop.getProperty("Em");
 		}
+		public String getemelement() {
+			return prop.getProperty("Em1");
+		}
 		public String getpnameelement() {
 			return prop.getProperty("pname");
+			
+		}
+		public String getwpnameelement() {
+			return prop.getProperty("wpname");
 			
 		}
 		public String getpname1element() {
 			return prop.getProperty("pname1");
 			
 		}
+		public String getwpname2element() {
+			return prop.getProperty("wphone");
+			
+		}
 		public String getcpnameelement() {
 			return prop.getProperty("Cpname");
+		}
+		public String getwcpnameelement() {
+			return prop.getProperty("wcpname");
 		}
 		public String getbrowsername() {
 			return prop.getProperty("browsername");
@@ -105,39 +151,24 @@ public class Phpconfigreaderclass {
 		public String getloginlink() {
 			return prop.getProperty("loginlink");
 		}
-		public String logoutelement() {
+		public String getmybookinglink() {
+			return prop.getProperty("mybookings");
+		}
+		
+		public String getsignuplink() {
+			return prop.getProperty("signuplink");
+		}
+		public String getsignup() {
+			return prop.getProperty("signup");
+		}
+		public String getlogout() {
 			return prop.getProperty("logout");
 		}
-		public String getsignuplink() {
-			return prop.getProperty("signUp");
-		}
-		public String getgendar() {
-			return prop.getProperty("gendar");
-		}
-		public String getDOB() {
-			return prop.getProperty("DOB");
-		}
-		public String getmonth() {
-			return prop.getProperty("MONTH");
-		}
-		public String getmonthvalue() {
-			return prop.getProperty("MVALUE");
-		}
-		public String getyear() {
-			return prop.getProperty("YEAR");
-		}
-		public String getyearvalue() {
-			return prop.getProperty("YVALUE");
-		}
-		public String getclickdone() {
-			return prop.getProperty("CLICKDONE");
-		}
-		public String getDobElemen() {
-			return prop.getProperty("DOBVALUE");
-		}
-		public String getregister() {
-			return prop.getProperty("Register");
-		}
+		
+		
+		
+		
+		
 		public String getsignupsucsess() {
 			return prop.getProperty("signupsucsess");
 		}
@@ -150,57 +181,15 @@ public class Phpconfigreaderclass {
 		public String getlbbutton() {
 			return prop.getProperty("lbbutton");
 		}
-		public String getprolink() {
-			return prop.getProperty("prolink");
+		
+		
+		public String getphonenumber() {
+			return prop.getProperty("phonenumber");
 		}
-		public String getprofile() {
-			return prop.getProperty("clikprofile");
-		}
-		public String getpropicture() {
-			return prop.getProperty("propicture");
-		}
-		public String getsavebutton() {
-			return prop.getProperty("savebutton");
-		}
-		public String gethomelink() {
-			return prop.getProperty("clickhome");
-		}
-		public String getdeliteimage() {
-			return prop.getProperty("delitingimage");
-		}
-		public String getchoosebutton() {
-			return prop.getProperty("choosefile");
-		}
-		public String getsubcription() {
-			return prop.getProperty("mysubscriptio");
-		}
-		public String getpersnoldairys() {
-			return prop.getProperty("persnoldairys");
-		}
-		public String getaddpage() {
-			return prop.getProperty("addpage");
+		public String getmyaccount() {
+			return prop.getProperty("myaccount");
 		}
 		
-		public String getaddpagedate() {
-			return prop.getProperty("adddate");
-		}
-		public String getaddpagedateelement() {
-			return prop.getProperty("adddateelement");
-		}
-		public String getaddpagedatedone() {
-			return prop.getProperty("adddatedone");
-		}
-		public String getaddthougtlink() {
-			return prop.getProperty("linkaddurthougts");
-		}
-		public String getchoosfileelement() {
-			return prop.getProperty("choosfileelement");
-		}
-		public String getthougtscript() {
-			return prop.getProperty("thougtscript");
-		}
-		public String getthougtelement() {
-			return prop.getProperty("thougtselement");
-		}
+		
 	}
 
